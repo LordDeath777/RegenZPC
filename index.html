@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RegenZPC</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#top").load("_top.html");
+        $("#bottom").load("_bottom.html");
+      });
+    </script>
+    <!--styles.css-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--Animate on scroll aos css cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--animate on scroll aos js cdn-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--content goes here-->
+
+    <!-- begin carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/images/carousel/1.jpg"
+            class="d-block w-100"
+            alt="Try our new premium parts if a full build isnt what you need"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Top Grade performance</h5>
+            <p>Try our new premium parts if a full build isnt what you need</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/2.jpg"
+            class="d-block w-100"
+            alt="Community and customer inspired to do the best day in and day out"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Community inspired</h5>
+            <p>
+              Community and customer inspired to do the best day in and day out
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/3.jpg"
+            class="d-block w-100"
+            alt="RegenZPC is here for any job that needs to be done"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RegenZPC</h5>
+            <p>RegenZPC is here for any job that needs to be done</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="ratio ratio-16x9 carousel-alternate">
+      <iframe
+        src="https://www.youtube.com/embed/UDflghCrJ2k"
+        title="YouTube Video"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+    <!-- end carousel -->
+
+    <!-- Font Awesome Row begin -->
+    <div class="container-fluid text-center fa-row">
+      <div class="row">
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-desktop fa-row-icon"></i><br />
+          <a href="#">Desktops</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-laptop-code fa-row-icon"></i><br />
+          <a href="#">Laptops</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-window-maximize fa-row-icon"></i><br />
+          <a href="#">Monitors</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-server fa-row-icon"></i><br />
+          <a href="#">Servers</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-network-wired fa-row-icon"></i><br />
+          <a href="#">Builder</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-database fa-row-icon"></i><br />
+          <a href="#">Parts</a>
+        </div>
+      </div>
+    </div>
+    <!-- Font Awesome Row end -->
+
+    <!-- first description section begin -->
+    <div class="container volunteer-div google-font" data-aos="flip-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/Volunteer.jpg"
+            class="img-responsive volunteer-img"
+            alt="Dedication to Customer Service"
+          />
+          <h2>Dedication to Customer Service</h2>
+          <p>
+            With over a decade of experience in building the world’s most
+            advanced custom gaming computers, servers, and premium parts. Each
+            PC is hand built by skilled technicians. Everything from inventory
+            allocation, assembly, testing, and quality assurance are done
+            in-house to ensure we provide only the very best for our customers.
+            It’s what makes owning a PC, lapotop, or server truly special, being
+            handmade with perfection and finished with utmost care.
+          </p>
+
+          <p>
+            High-performance hardware needs to be properly tested for
+            bottlenecks and stability issues. Our team of technicians test every
+            custom gaming computer, server, or laptop with a series of
+            stress-tests and benchmarks that analyze the processor, memory,
+            graphics cards, storage, and even the power supply. Once the devices
+            pass these tests, a second technician verifies them before sending
+            the computer, server, or parts to our quality assurance team.
+          </p>
+
+          <p>
+            Putting together a custom gaming pc, server, or laptop is only part
+            of the process, our expert technicians are obsessed with squeezing
+            every ounce of performance from our computers. To unlock maximum
+            performance, factors such as: the wiring job, chassis airflow, power
+            delivery, and layout of components represent the core foundation of
+            a true custom PC.
+          </p>
+
+          <p>
+            Every purchase comes with lifetime expert support by our in-house
+            technicians. Our team strives to resolve any issue with your device
+            or part as quickly and efficiently as possible. As a commitment to
+            our dedication in helping our customers, RegenZPC is rated an A+
+            from the BBB for over 10+ years since we’ve been in business. We
+            imagine the situation from the customer’s shoes, and treat them just
+            like we would want ourselves to be treated!
+          </p>
+
+          <div>
+            <a href="form.html" class="btn btn-outline-primary btn-volunteer"
+              >Volunteer Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- first description section end -->
+
+    <!-- gallery begins -->
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/1.jpg">
+            <img
+              src="/images/fancybox/thumbs/1.jpg"
+              class="img-responsive img-fancybox"
+              alt="gpu cooling"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/2.jpg">
+            <img
+              src="/images/fancybox/thumbs/2.jpg"
+              class="img-responsive img-fancybox"
+              alt="PC setup"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/3.jpg">
+            <img
+              src="/images/fancybox/thumbs/3.jpg"
+              class="img-responsive img-fancybox"
+              alt="Business Setup"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/4.jpg">
+            <img
+              src="/images/fancybox/thumbs/4.jpg"
+              class="img-responsive img-fancybox"
+              alt="PC and Laptop setup"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="row gallery-button">
+        <div class="col-12 text-center">
+          <a href="gallery.html" class="btn btn-outline-primary btn-gallery"
+            >View Gallery</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- gallery ends -->
+
+    <!-- Second description section begins -->
+
+    <div class="container contact-div google-font" data-aos="flip-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/Contact-Us.jpg"
+            class="img-responsive contact-img"
+            alt="Community Base and Support"
+          />
+          <h2>Community Base and Support</h2>
+
+          <p>
+            RegenZPC provides computer part selection, compatibility, and
+            pricing guidance for do-it-yourself computer builders. Assemble your
+            virtual part lists with RegenZPC and we'll provide compatibility
+            guidance with up-to-date pricing from dozens of the most popular
+            online retailers. We make it easy to share your part list with
+            others, and our community forums provide a great place to discuss
+            ideas and solicit feedback. Please follow one of our social media
+            links for more community info!
+          </p>
+
+          <p>
+            Continuously updated prices from dozens of the most popular online
+            retailers. Configurable mail-in rebates and sales tax rates - easily
+            enable/disable mail-in rebates and per-retailer tax rates in price
+            calculations. Price history charts for both parts and part lists.
+            Price trending on a part category basis lets you see what is
+            happening to prices on a macro level.
+          </p>
+
+          <p>
+            Part lists and prebuilt devices are broken out by filterable
+            categories to ensure you include all the necessary components.
+            Automatic compatibility guidance limits choices to parts known to be
+            compatible, and warns you if you pick incompatible parts. Easy
+            sharing through Twitter, Facebook, part list permalinks, as well as
+            auto-generated markup text for Reddit and many forums.
+          </p>
+          <p>
+            Nothing is automated or outsourced at RegenZPC. Every computer is
+            hand assembled from the ground up by our highly skilled experts.
+            Here we see one of our technicians making sure every screw is
+            torqued down to just the right level before this Regen II system is
+            finished and sent to our testing department.
+          </p>
+          <p>
+            <strong>
+              Here at RegenZPC we are purely dedicated to our customer, and
+              community base. With a number 1 rated customer service and support
+              system than any other PC or part company in the U.S.!
+            </strong>
+          </p>
+
+          <div>
+            <a href="footerInfo" class="btn btn-outline-primary btn-contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second description section ends -->
+
+    <!-- members begin -->
+
+    <div class="container text-center staff" id="staff">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/1.jpg"
+            alt="John Smith"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            RegenZPC has avoided the pitfalls of other prebuilt PCs
+            <cite>John Smith</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/2.jpg"
+            alt="Konin Yamamato"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            If you are on the edge of ordering, then DO IT! RegenZPC is an
+            absolutely amazing company.
+            <cite>Konin Yamamato</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/3.jpg"
+            alt="Jacob and Sara"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            RegenZPC helped us find the right parts for our PC to keep our
+            company, up, running, and expanding!
+            <cite>Jacob and Sara</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- members end -->
+
+    <!--content goes here-->
+    <div id="bottom"></div>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>

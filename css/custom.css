@@ -1,0 +1,14 @@
+:root {
+  /*colors*/
+  /*https://www.canva.com/colors/color-wheel/print/72848d+8d7b72/*/ /*https://www.canva.com/colors/color-wheel/print/80807f+7f7f80/ */
+  /*going to use different colors than posted on week 7*/
+  --dominantColor: #72848d; /* var(--dominantColor); */
+  --secondaryColor: #8d7b72; /* var(--secondaryColor); */
+  --accentColor: #7f7f80; /* var(--accentColor); */
+
+  /*box shadow*/
+  /*cssmatic*/
+  /* https://shadows.brumm.af */
+  /* vertical, horizontal, blur, spread, color+opacity */
+  --boxShadow: 0 0 20px rgba(0, 0, 0, 0.35); /* var(--boxShadow); */
+}
